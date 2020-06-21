@@ -1,0 +1,39 @@
+{
+  "name": "gridsome-plugin-bundle-analyzer",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "krmax44 <hi@krmax44.de>",
+  "repository": "krmax44/gridsome-plugin-bundle-analyzer",
+  "license": "MIT",
+  "keywords": [
+    "gridsome-plugin"
+  ],
+  "scripts": {
+    "lint": "xo"
+  },
+  "dependencies": {
+    "webpack-bundle-analyzer": "^3.8.0"
+  },
+  "xo": {
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
+    "prettier": true
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "np": "^6.2.4",
+    "prettier": "^2.0.5",
+    "xo": "^0.32.0"
+  }
+}
