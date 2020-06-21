@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-bundle-analyzer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "krmax44 <hi@krmax44.de>",
   "repository": "krmax44/gridsome-plugin-bundle-analyzer",
